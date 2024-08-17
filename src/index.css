@@ -1,3 +1,14 @@
-@tailwind@tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', 'Poppins';
+    background-color:#845afc;
+    padding: 30px;
+}

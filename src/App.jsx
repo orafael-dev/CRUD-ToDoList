@@ -7,20 +7,20 @@ const App = () => {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      text: "Criar funcionalidade x no sistema",
-      category: "Trabalho",
+      text: "Estudar Javascript",
+      category: "Estudo",
       isCompleted: false,
     },
     {
       id: 2,
-      text: "Ir pra academia",
+      text: "Fazer compras",
       category: "Pessoal",
       isCompleted: false,
     },
     {
       id: 3,
-      text: "Estudar React",
-      category: "Estudos",
+      text: "Reunião 15h",
+      category: "Trabalho",
       isCompleted: false,
     },
   ]);
@@ -51,7 +51,7 @@ const App = () => {
   return (
     <div
       className="
-  app bg-[#1b1a41] max-w-[600px] mx-auto mb-[300px] py-[20px] px-[30px] rounded-xl"
+  app bg-[#1b1a41] max-w-[600px] mx-auto  py-[20px] px-[30px] rounded-xl mt-2 overflow-y-auto"
     >
       <img src={crudlogo} alt="Crudlogo" />
       <TodoForm addTodo={addTodo}/>
